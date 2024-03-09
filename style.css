@@ -28,6 +28,7 @@ body {
 }
 
 .head {
+  font-size: 1.8rem;
   margin-block: 1rem;
   text-align: center;
 }
@@ -38,4 +39,13 @@ body {
   font-weight: 500;
   margin-bottom: 1rem;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 15.5rem;
+  }
+  .head {
+    font-size: 1.5rem;
+  }
 }
